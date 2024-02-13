@@ -11,7 +11,7 @@ public class array2d{
         int col=in.nextInt();
 
         int[][] arr= new int[rows][col];
-
+        //Input
         System.out.println("Enter The Array value");
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < col; j++) {
