@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class array2d{
@@ -21,7 +22,8 @@ public class array2d{
 
         }
 
-        //2d array print using
+        /*
+2d array print using normal way
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < col; j++) {
 
@@ -31,6 +33,21 @@ public class array2d{
             System.out.println();
 
         }
+print using array to string method
+        for (int i = 0; i < rows; i++) {
+            System.out.println(Arrays.toString(arr[i]));
+
+        }
+print using Enhanced for Loop
+Here arr is an array so we assign it into Int[] Num and using arrays.tostring method to print a array
+*/
+
+
+        for(int[] num: arr){
+            System.out.println(Arrays.toString(num));
+        }
+
+
 
     }
 }
